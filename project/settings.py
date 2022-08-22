@@ -83,10 +83,10 @@ WSGI_APPLICATION = 'project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd54t97jce7m6u8',
-        'USER': 'aapqfairqfksun',
-        'PASSWORD': '9d3b0d3c7ddf44b71c6d41530d9a194eb817ea5a1c993f048161743829ac3a4b',
-        'HOST': 'ec2-54-228-218-84.eu-west-1.compute.amazonaws.com',
+        'NAME': 'dbddbjnlqd34ab',
+        'USER': 'duhmzvysexgejn',
+        'PASSWORD': '80286eaa1ce82edbbd140e75594551628da5c52215c171f7d528deeabcc33100',
+        'HOST': 'ec2-34-241-90-235.eu-west-1.compute.amazonaws.com',
         'PORT': '5432',
     }
 }
@@ -126,10 +126,11 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
-STATIC_URL = 'static/'
+
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR,'static')
 ]
+STATIC_URL = 'static/'
 
 STATICFILES_STORAGE='whitenoise.storage.CompressedStaticFilesStorage'
 
