@@ -131,7 +131,7 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR,'static')
 ]
 
-STATICFILES_STORAGE='whitenoise.storage.CompressedManifestStaticFiles'
+STATICFILES_STORAGE='whitenoise.storage.CompressedStaticFilesStorage'
 
 
 # Default primary key field type
